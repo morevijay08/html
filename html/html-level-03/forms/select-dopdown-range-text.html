@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown</title>
+</head>
+<body>
+    <!-- Dropdown -->
+     <div>
+    <form action="/server">
+    <select name="profession">
+        <option value="student">Student</option>
+        <option value="teacher">teacher</option>
+    </select>
+    <button>submit</button>
+    </form>
+    </div>
+
+    <!-- Range -->
+     <div>
+        <form action="/server">
+            <label for="vol">volume</label>
+            <input type="range" id="vol" min="0" max="100" name="vol" value="40" step="10"/>
+            <button>submit</button>
+        </form>
+     </div>
+
+     <!-- Textarea -->
+      <div>
+        <form action="/server">
+            <label for="feedback">Please give your valuable feedback</label>
+            <br/>
+            <textarea
+                id="feedback"
+                name="feedback"
+                placeholder="write your feedback here"
+                rows="5"
+                cols="100"></textarea><br/>
+            <button>submit</button>
+        </form>
+      </div>
+
+</body>
+</html>

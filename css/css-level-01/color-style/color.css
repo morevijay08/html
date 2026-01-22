@@ -1,0 +1,11 @@
+h1{
+    /* this is RGB */
+    color: rgb(0,0,255); 
+}
+h2{
+    /* This is Hexadecimal */
+    color: #ffff00;
+}
+h3{
+    color:#3a797a;
+}

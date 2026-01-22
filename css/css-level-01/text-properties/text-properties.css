@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+    /* text-align: left;
+    text-align: right;
+    text-align: justify; */
+    /* width: 50%; */
+
+    text-decoration: underline;
+    /* text-decoration: line-through;
+    text-decoration: overline; */
+
+}
+p{
+    /* normal=400,bold=greater than 700,light=less than 300 */
+    /* font-weight:700;
+    font-weight:normal; 
+    font-weight:bold;
+    font-weight:100;
+    font-weight:bolder;
+    font-weight:lighter; */
+
+    /* line-height: normal;
+    line-height: 2.5; */
+    line-height: 2;
+
+    /* letter-spacing: normal; */
+    letter-spacing: 10px;
+
+    font-size: 50px;
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
