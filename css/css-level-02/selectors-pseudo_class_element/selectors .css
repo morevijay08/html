@@ -1,0 +1,62 @@
+h1{
+    color:red
+}
+
+/* universal selectors */
+*{
+    font-family:IMPACT;
+}
+
+/* Element Selector */
+h3,h1{
+    color:#b92b27
+}
+
+/* #ID Selector */
+#login{
+    background-color: white;
+}
+#signup{
+    background-color: #b92b27;
+    color: white;
+}
+
+/* class Selector */
+.upvote{
+    background-color: rgb(0,255,0);
+}
+
+/* Decendent Selector */
+
+.post a{
+    color : purple;
+}
+
+nav ul li a{
+    color : pink;
+}
+
+/* Adjacent Sibling Combinator */
+p + h3{
+    text-decoration: underline;
+} 
+
+.upvote + button{
+    background-color: cornflowerblue;
+    color: darkblue;
+}
+
+/* child Combinator */
+div > input{
+    background-color: darksalmon;
+}
+
+/* Attribut Selector */
+
+input[type = "text"]{
+    color: red;
+}
+
+input[type = "password"]{
+    color: green;
+}

@@ -1,0 +1,49 @@
+/* #Pseudo Class */
+
+/* 1. :Hover */
+h3:hover{
+    text-decoration: none;
+}
+
+/* 2.:active */
+button:active{
+    background-color: hotpink;
+    color: black;
+}
+
+p:active{
+    font-weight: bold;
+    color:green;
+}
+
+/* 3. :checked */
+
+input[type ="radio"]:checked+label{
+    color:red;
+    font-weight: bold;
+}
+
+/* 4. :nth_of_type */
+
+div:nth-of-type(2n){
+    background-color: blanchedalmond;
+
+}
+
+
+/* #pseudo Element */
+
+/* 1. ::first-letter */
+h1::first-letter{
+    color:pink
+}
+
+/* 2. ::first-line */
+p::first-line{
+    color: purple;
+}
+
+/* 3. ::Selection */
+P::selection{
+    background-color: rgb(199,192,53);
+}
