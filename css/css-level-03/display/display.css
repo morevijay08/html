@@ -1,0 +1,12 @@
+h2{
+    /* h2 element has by defalut has block line element but we can change into inline by using display  */
+    display:inline;
+    background-color: yellowgreen;
+}
+
+span{
+
+    /* span element has by defalut innline */
+    display:block;
+    background-color: aliceblue;
+}

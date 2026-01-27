@@ -1,0 +1,15 @@
+div{
+    margin-left: 150px;
+    margin-bottom: 25px;
+
+    /* margin shorthand */
+
+    /* top | right | bottom | left (anticlockwise) */
+    margin: 20px 200px 50px 150px;
+}
+
+h1{
+    /* by defalut margin is given to h1 tag for removing this */
+    margin: 0px;
+}
+

@@ -1,0 +1,31 @@
+div{
+    padding-top: 200px; 
+    padding: 50px;
+
+    /* padding shorthand */
+
+    /* for all sides (most use) */
+    /* padding: 50px; */
+
+    /* for top|right|bottom|left (most use anticlockwise) */
+    /* padding: 1px 2px 3px 4px; */
+
+    /* for top&bottom | left&right */
+    /* padding:1px 2px    */
+
+    /* for top | left&right | bottom */
+    /* padding:1px 2px 3px */
+
+
+
+}
+
+button{
+    height: 30px;
+    width: 100px;
+    border: 2px solid black;
+    padding-left: 20px;
+    padding-right: 25px;
+    background-color: yellow;
+    border-radius: 10px;
+}
