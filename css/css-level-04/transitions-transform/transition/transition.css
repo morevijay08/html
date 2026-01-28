@@ -1,0 +1,23 @@
+div{
+    height: 200px;
+    width:200px;
+    background-color: #4dff00ff;
+    /* transition-duration: 3s; */
+}
+div:hover{
+    background-color: black;
+    border-radius: 50%;
+}
+
+/* transition Shorthand */
+
+div{
+    margin: 0 auto;
+    margin-top: 10px;
+    transition: margin-top 2s ease 0.2s;
+}
+div:hover{
+    margin-top: 400px;
+    background-color: pink;
+
+}
