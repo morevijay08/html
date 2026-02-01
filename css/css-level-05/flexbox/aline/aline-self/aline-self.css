@@ -1,0 +1,34 @@
+#container{
+    height: 400px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+   
+}
+
+#org{
+    align-self: baseline;
+}
+
+#blu{
+    align-self: flex-end;
+    /* align-self: baseline; */
+
+}
+
+h1{
+    text-align: center;
+}
+
+#container div{
+    height: 50px;
+    width: 100px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
